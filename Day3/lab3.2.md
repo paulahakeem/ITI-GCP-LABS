@@ -3,5 +3,4 @@
 
 ---
 ### 2. Try to configure IAP at the load balancer level to protect your ingress access. Is it possible to have 
-- IAP enabled for HTTP resources
-- I can't configure iap on my LB because it configured on http protocol
+- no isn't possible i can't configure iap on my LB because it configured on http protocol not https protocol
