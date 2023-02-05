@@ -33,6 +33,25 @@ kubectl logs nginx-deployment-84d8b48bcf-csjn6
 ### 6- Use cloud logging service to view container logs.
 - screenshot from console ![Screenshot_20230205_042621](https://user-images.githubusercontent.com/116673091/216825326-50e6dd0b-94f3-4ec8-a06d-8f01e25cb1a0.png)
 ---
+### 7- (Bonus) setup a HTTP load balancer for your deployment using the kubernetes ingress resource (Bonus)``
+-yaml file 
+```yaml 
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: myingress
+spec:
+  defaultBackend:
+    service:
+      name: nginx-lb 
+      port:
+        number: 80
+```
+- screenshot from console ![Screenshot_20230205_051620](https://user-images.githubusercontent.com/116673091/216827909-e50a7585-8d58-41fe-bcd2-266bfa55f692.png)
+- screenshot form acess ip ![Screenshot_20230205_051628](https://user-images.githubusercontent.com/116673091/216827957-fc834d01-001f-4254-9995-2f778e2e49f9.png)
+---
+
+
 
 
 
