@@ -33,8 +33,14 @@ gsutil rm gs:<file-path-in-bucket>
 ---
 ### 2.Host a static website on a standard public GCS bucket 
 - screenshot from console  ![Screenshot_20230205_071804](https://user-images.githubusercontent.com/116673091/216834122-d6b65216-34b6-4e9f-b9aa-92340f88add2.png)
+
+
 - screenshot from browser without loadbalancer ![Screenshot_20230205_072740](https://user-images.githubusercontent.com/116673091/216836190-c2359708-01fa-46e8-ab8f-13fc857a8c54.png)
+
+
 - screenshot from browser after loadbalancer ![Screenshot_20230205_074135](https://user-images.githubusercontent.com/116673091/216836208-2215712c-e5c7-4a12-a446-b656758e275d.png)
+
+
 - screenshot from loadbalancer conole ![Screenshot_20230205_074847](https://user-images.githubusercontent.com/116673091/216836228-298b76ef-accc-4ede-b09c-443ae3ee73f9.png)
 
 
