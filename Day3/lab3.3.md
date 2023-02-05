@@ -50,7 +50,13 @@ spec:
 - screenshot from console ![Screenshot_20230205_051620](https://user-images.githubusercontent.com/116673091/216827909-e50a7585-8d58-41fe-bcd2-266bfa55f692.png)
 - screenshot form acess ip ![Screenshot_20230205_051628](https://user-images.githubusercontent.com/116673091/216827957-fc834d01-001f-4254-9995-2f778e2e49f9.png)
 ---
-
+### 8- Create an autopilot GKE cluster with public control plane.
+- screenshot from console ![Screenshot_20230205_053214](https://user-images.githubusercontent.com/116673091/216828735-95816a67-7e60-4643-a4da-7e8b04fc9442.png)
+---
+### 9- Enforce the cluster’s control plane to accept only connections from your local machine
+- screenshot from my local machine ![Screenshot_20230205_055845](https://user-images.githubusercontent.com/116673091/216830239-8f612875-aa40-4d3b-ad02-469442003d6f.png)
+- screenshot from cloudshell ![Screenshot_20230205_055834](https://user-images.githubusercontent.com/116673091/216830228-4a8cc84b-ef2c-432d-b7a9-f7fec4da896a.png)
+---
 
 
 
