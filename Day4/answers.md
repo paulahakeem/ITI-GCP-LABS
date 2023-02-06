@@ -31,7 +31,7 @@ gsutil rm gs:<file-path-in-bucket>
 ```
 - screenshot from terminal  ![Screenshot_20230205_064417](https://user-images.githubusercontent.com/116673091/216832408-a98813ae-a1f1-4cd0-b652-58db4b30a7db.png)
 ---
-### 2.Host a static website on a standard public GCS bucket 
+### 2- Host a static website on a standard public GCS bucket 
 - screenshot from console  ![Screenshot_20230205_071804](https://user-images.githubusercontent.com/116673091/216834122-d6b65216-34b6-4e9f-b9aa-92340f88add2.png)
 
 
@@ -42,5 +42,22 @@ gsutil rm gs:<file-path-in-bucket>
 
 
 - screenshot from loadbalancer conole ![Screenshot_20230205_074847](https://user-images.githubusercontent.com/116673091/216836228-298b76ef-accc-4ede-b09c-443ae3ee73f9.png)
+---
+### 3- Deploy MySQL private instance and connect to it then create a new database
+- screenshot from console when i trying to connect![Screenshot_20230206_021414](https://user-images.githubusercontent.com/116673091/216867755-76a62085-bc28-4200-87ad-daf63398d098.png)
 
+
+- now i will create new vm and install my sql client
+```bash
+sudo apt-get update
+sudo apt-get install default-mysql-client 
+```
+- screenshot from terminal after install my client and create a new database.(iti) ![Screenshot_20230206_022601](https://user-images.githubusercontent.com/116673091/216869229-aa767002-d7d8-490a-9ac6-c0acc2edb84c.png)
+- commands to make it 
+```bash
+mysql -h 10.59.192.3 -u root -p
+create database iti;
+show databases;
+```
+---
 
