@@ -29,6 +29,7 @@ gcloud app browse
 ```
 - screenshot from terminal ![Screenshot_20230206_072139](https://user-images.githubusercontent.com/116673091/216890049-155b632e-cefe-407a-ac62-7daa1f9b2828.png)
 - screenshot from browser ![Screenshot_20230206_072249](https://user-images.githubusercontent.com/116673091/216890213-1e475768-3035-4ce1-8a0e-f3788b94624d.png)
+![Screenshot_20230206_072524](https://user-images.githubusercontent.com/116673091/216890463-2ca84071-1e5a-4aed-a29d-8d9fe97ac911.png)
 ----
 
 
